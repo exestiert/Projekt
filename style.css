@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+.footer{
+    background-color: #0d131a;
+    display: flex;
+    justify-content: end;
+}
+.text-footer{
+    color: white;
+    padding: 10rem 5rem 0 25rem;
+    font-size: 1.7rem;
+}
+.block--last__2{
+    padding: 10rem 25rem 0 0;
+}
+.footer-end{
+    display: flex;
+    background-color: #0d131a;
+    padding: 4rem 25rem;
+    font-weight: 100;
+    font-size: 0.8rem;
+    justify-content: space-between;
+}
+.footer-end>ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.footer-end>p{
+    color: white;
+}
+li>a{
+    text-decoration: none;
+    color: white;
+}
+ul>li{
+    padding: 0 1.5rem;
+}
