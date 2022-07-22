@@ -11,8 +11,46 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+<!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: '#0d131a',
+              hoverBG: '#dc4128',
+            }
+          }
+        }
+      }
+    </script>
   </head>
   <body>
+    <!-- Navbar -->
+  <nav class="relative container-2xl p-6 bg-background ">
+    <!-- Flex container -->
+    <div class="flex items-center justify-between">
+      <!-- Logo -->
+      <img class="pl-40"src="https://assets.website-files.com/62c3018c5984f641d7a8e3ba/62c3018c5984f632e9a8e412_logo.svg" alt="">
+      
+      <!-- Button -->
+      <a
+      href="#"
+      class="w-30 h-10 p-3 px-6 pt-2 text-white border-2 border-white  bg-background rounded-full baseline md:block hover:bg-hoverBG hover:border-black font-bold"
+      >Tim Kantaut kennelernen</a
+    >
+      
+
+      <div class="flex mr-40">
+        <img src="https://assets.website-files.com/62c3018c5984f641d7a8e3ba/62c3018c5984f61c31a8e40e_xing.svg" alt="Xing">
+        <img src="https://assets.website-files.com/62c3018c5984f641d7a8e3ba/62c3018c5984f67784a8e413_in.svg"" alt="LinkedIn">
+      </div>
+    </div>
+
+  </nav>
+   
+</section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
